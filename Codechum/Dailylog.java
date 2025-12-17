@@ -7,7 +7,8 @@ public class Dailylog{
         String activity2 = "Meeting";
         double hours2 = 2.0;
         double cost2 = 15.50;
-        
+
+         // Calculate total hours and total cost
         double total_hours = hours1 + hours2;
         double total_cost = cost1 + cost2;
         
@@ -19,4 +20,5 @@ public class Dailylog{
         System.out.printf("Total Hours: %.2f%n", total_hours);
         System.out.printf("Total Cost: $%.2f%n", total_cost);
     }
+
 }
