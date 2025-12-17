@@ -12,8 +12,9 @@ public class Totalprice {
 
         double cost = quantity * per_price;
 
-        System.out.printf("Total cost: $%.2f", cost);
+        System.out.printf("Total cost: PHP%.2f", cost);
 
         price.close();
     }
+
 }
