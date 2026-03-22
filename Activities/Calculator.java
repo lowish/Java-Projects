@@ -20,5 +20,6 @@ System.out.println("Difference: " + calculator.subtract());
 System.out.println("Product: " + calculator.multiply());
 System.out.println("Quotient: " + calculator.divide());
 
+sc.close();
 }
 }

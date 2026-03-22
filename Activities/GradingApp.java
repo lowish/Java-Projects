@@ -31,5 +31,7 @@ public class GradingApp {
         System.out.println();
         student.displayInfo();
         student.checkResult();
+
+        input.close();
     }
 }
