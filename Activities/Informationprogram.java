@@ -3,14 +3,11 @@ import java.util.Scanner;
 public class Informationprogram{
     public static void main(String[] args){
         Scanner program = new Scanner(System.in);
-        String name = "";
-        int age = 0;
-        String course = "";
-        String school = "";
-        String interest = "";
-        
+
+        System.out.println("Welcome to the Information Program!");
+
         System.out.print("Name: ");
-        String name1 = program.nextLine();
+        String name = program.nextLine();
 
         System.out.print("Age: ");
         int age = program.nextInt();
@@ -24,6 +21,12 @@ public class Informationprogram{
         System.out.print("Interest: ");
         String interest = program.next();
 
+        System.out.println("\n--- Your Information ---");
+        System.out.println("Name: " + name);
+        System.out.println("Age: " + age);
+        System.out.println("Course: " + course);
+        System.out.println("School: " + school);
+        System.out.println("Interest: " + interest);
 
         program.close();
         
