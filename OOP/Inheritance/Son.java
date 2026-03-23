@@ -1,13 +1,7 @@
 package OOP.Inheritance;
 
 public final class Son extends Father {
-    public Son(String name, int age){
-        super(name, age);
-    }
-    
-    public Son(int age) {
-        super("Unknown", age);
-    }
+
     
     public void introduceWithStyle(int n) {
         for (int i = 0; i < n; i++){
