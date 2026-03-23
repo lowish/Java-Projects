@@ -1,3 +1,4 @@
+
 public class ArithmeticParent{
     
 protected double num1;
